@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.projectucc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\karld\.gradle\caches\transforms-3\d3f5975630fdaeb02c25aaf42b95f672\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.projectucc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\karld\.gradle\caches\transforms-3\d3f5975630fdaeb02c25aaf42b95f672\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\karld\.gradle\caches\transforms-3\d3f5975630fdaeb02c25aaf42b95f672\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.projectucc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\karld\.gradle\caches\transforms-3\d3f5975630fdaeb02c25aaf42b95f672\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\karld\.gradle\caches\transforms-3\d3f5975630fdaeb02c25aaf42b95f672\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:8:5-44:19
+21        android:allowBackup="true"
+21-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\karld\.gradle\caches\transforms-3\d3f5975630fdaeb02c25aaf42b95f672\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_uccicon"
+27-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:12:9-42
+28        android:label="@string/app_name"
+28-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:13:9-41
+29        android:supportsRtl="true"
+29-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:14:9-35
+30        android:theme="@style/Theme.ProjectUCC" >
+30-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:15:9-48
+31        <activity
+31-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:17:9-43:20
+32            android:name="com.example.projectucc.MainActivity"
+32-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:18:13-41
+33            android:exported="true" >
+33-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:19:13-36
+34            <activity
+34-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:20:9-22:40
+35                android:name="com.example.projectucc.Attribution"
+35-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:21:13-40
+36                android:exported="false" />
+36-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:22:13-37
+37            <activity
+37-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:23:9-25:40
+38                android:name="com.example.projectucc.SocialMedia"
+38-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:24:13-40
+39                android:exported="false" />
+39-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:25:13-37
+40            <activity
+40-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:26:9-28:40
+41                android:name="com.example.projectucc.Admissions"
+41-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:27:13-39
+42                android:exported="false" />
+42-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:28:13-37
+43            <activity
+43-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:29:9-31:40
+44                android:name="com.example.projectucc.CourseDetails"
+44-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:30:13-42
+45                android:exported="false" />
+45-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:31:13-37
+46            <activity
+46-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:32:9-34:40
+47                android:name="com.example.projectucc.Courses"
+47-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:33:13-36
+48                android:exported="false" />
+48-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:34:13-37
+49            <activity
+49-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:35:9-37:40
+50                android:name="com.example.projectucc.Directory"
+50-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:36:13-38
+51                android:exported="false" />
+51-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:37:13-37
+52
+53            <intent-filter>
+53-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:38:13-42:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:39:17-69
+54-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:39:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:41:17-77
+56-->C:\Users\karld\AndroidStudioProjects\ProjectUCC\app\src\main\AndroidManifest.xml:41:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <service
+60-->[com.google.firebase:firebase-firestore-ktx:24.1.1] C:\Users\karld\.gradle\caches\transforms-3\d260df3ffe58903f6f374b0ea79b112e\transformed\firebase-firestore-ktx-24.1.1\AndroidManifest.xml:12:9-18:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[com.google.firebase:firebase-firestore-ktx:24.1.1] C:\Users\karld\.gradle\caches\transforms-3\d260df3ffe58903f6f374b0ea79b112e\transformed\firebase-firestore-ktx-24.1.1\AndroidManifest.xml:13:13-84
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.1.0] C:\Users\karld\.gradle\caches\transforms-3\b70b382c3830858850cd650c6773c7c0\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-firestore-ktx:24.1.1] C:\Users\karld\.gradle\caches\transforms-3\d260df3ffe58903f6f374b0ea79b112e\transformed\firebase-firestore-ktx-24.1.1\AndroidManifest.xml:14:13-37
+64            <meta-data
+64-->[com.google.firebase:firebase-firestore-ktx:24.1.1] C:\Users\karld\.gradle\caches\transforms-3\d260df3ffe58903f6f374b0ea79b112e\transformed\firebase-firestore-ktx-24.1.1\AndroidManifest.xml:15:13-17:85
+65                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+65-->[com.google.firebase:firebase-firestore-ktx:24.1.1] C:\Users\karld\.gradle\caches\transforms-3\d260df3ffe58903f6f374b0ea79b112e\transformed\firebase-firestore-ktx-24.1.1\AndroidManifest.xml:16:17-126
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-firestore-ktx:24.1.1] C:\Users\karld\.gradle\caches\transforms-3\d260df3ffe58903f6f374b0ea79b112e\transformed\firebase-firestore-ktx-24.1.1\AndroidManifest.xml:17:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-common-ktx:20.1.0] C:\Users\karld\.gradle\caches\transforms-3\acc39a602177393658412ac797065eb5\transformed\firebase-common-ktx-20.1.0\AndroidManifest.xml:15:13-17:85
+68                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+68-->[com.google.firebase:firebase-common-ktx:20.1.0] C:\Users\karld\.gradle\caches\transforms-3\acc39a602177393658412ac797065eb5\transformed\firebase-common-ktx-20.1.0\AndroidManifest.xml:16:17-113
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-common-ktx:20.1.0] C:\Users\karld\.gradle\caches\transforms-3\acc39a602177393658412ac797065eb5\transformed\firebase-common-ktx-20.1.0\AndroidManifest.xml:17:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\karld\.gradle\caches\transforms-3\6640d9e5ae1a2704e9fd8b8712cbbd2b\transformed\firebase-firestore-24.1.1\AndroidManifest.xml:20:13-22:85
+71                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+71-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\karld\.gradle\caches\transforms-3\6640d9e5ae1a2704e9fd8b8712cbbd2b\transformed\firebase-firestore-24.1.1\AndroidManifest.xml:21:17-111
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\karld\.gradle\caches\transforms-3\6640d9e5ae1a2704e9fd8b8712cbbd2b\transformed\firebase-firestore-24.1.1\AndroidManifest.xml:22:17-82
+73        </service>
+74
+75        <provider
+75-->[com.google.firebase:firebase-common:20.1.0] C:\Users\karld\.gradle\caches\transforms-3\b70b382c3830858850cd650c6773c7c0\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+76            android:name="com.google.firebase.provider.FirebaseInitProvider"
+76-->[com.google.firebase:firebase-common:20.1.0] C:\Users\karld\.gradle\caches\transforms-3\b70b382c3830858850cd650c6773c7c0\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+77            android:authorities="com.example.projectucc.firebaseinitprovider"
+77-->[com.google.firebase:firebase-common:20.1.0] C:\Users\karld\.gradle\caches\transforms-3\b70b382c3830858850cd650c6773c7c0\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+78            android:directBootAware="true"
+78-->[com.google.firebase:firebase-common:20.1.0] C:\Users\karld\.gradle\caches\transforms-3\b70b382c3830858850cd650c6773c7c0\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+79            android:exported="false"
+79-->[com.google.firebase:firebase-common:20.1.0] C:\Users\karld\.gradle\caches\transforms-3\b70b382c3830858850cd650c6773c7c0\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+80            android:initOrder="100" />
+80-->[com.google.firebase:firebase-common:20.1.0] C:\Users\karld\.gradle\caches\transforms-3\b70b382c3830858850cd650c6773c7c0\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\karld\.gradle\caches\transforms-3\f21ace1d6343e118ef1822903a352eba\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\karld\.gradle\caches\transforms-3\f21ace1d6343e118ef1822903a352eba\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\karld\.gradle\caches\transforms-3\f21ace1d6343e118ef1822903a352eba\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\karld\.gradle\caches\transforms-3\f21ace1d6343e118ef1822903a352eba\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\karld\.gradle\caches\transforms-3\2891ac9c7e2983ef6b2d3063049b7ba0\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\karld\.gradle\caches\transforms-3\2891ac9c7e2983ef6b2d3063049b7ba0\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\karld\.gradle\caches\transforms-3\2891ac9c7e2983ef6b2d3063049b7ba0\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\karld\.gradle\caches\transforms-3\01ff58837cf4d74ec6d120637541ab15\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\karld\.gradle\caches\transforms-3\01ff58837cf4d74ec6d120637541ab15\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+93            android:authorities="com.example.projectucc.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\karld\.gradle\caches\transforms-3\01ff58837cf4d74ec6d120637541ab15\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\karld\.gradle\caches\transforms-3\01ff58837cf4d74ec6d120637541ab15\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\karld\.gradle\caches\transforms-3\01ff58837cf4d74ec6d120637541ab15\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\karld\.gradle\caches\transforms-3\01ff58837cf4d74ec6d120637541ab15\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\karld\.gradle\caches\transforms-3\01ff58837cf4d74ec6d120637541ab15\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\karld\.gradle\caches\transforms-3\53437c6c3f17beb31c7f75438357fe2e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\karld\.gradle\caches\transforms-3\53437c6c3f17beb31c7f75438357fe2e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\karld\.gradle\caches\transforms-3\53437c6c3f17beb31c7f75438357fe2e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+101        </provider>
+102    </application>
+103
+104</manifest>
